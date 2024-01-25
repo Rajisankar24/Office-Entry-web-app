@@ -1,0 +1,161 @@
+.home-btn {
+  text-align: end;
+  margin-right: 187px;
+  margin-top: 72px;
+}
+.top-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 37px;
+}
+.tbl {
+  background: linear-gradient(
+    45deg,
+    rgb(25 165 239 / 67%) 0%,
+    rgb(6 245 110 / 66%) 100%
+  );
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: -webkit-fill-available;
+  margin-top: 57px;
+}
+
+.tbl-row {
+  height: 43px;
+  background-color: #f2f2f2;
+  font-family: monospace;
+  font-size: 17px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* .tbl-row:hover {
+  background-color: #7a9797;
+} */
+
+.tbl-row-head {
+  height: 43px;
+  color: white;
+  font-family: monospace;
+  background: linear-gradient(
+    45deg,
+    rgb(25 165 239 / 67%) 0%,
+    rgb(6 245 110 / 66%) 100%
+  );
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+/* tbody .tbl-row:nth-child(odd) {
+  background-color: #ccdbdb;
+} */
+.drb-lbl {
+  margin-right: 4px;
+  color: black;
+}
+
+.dte-box {
+  width: 154px;
+  text-align: center;
+  height: 25px;
+}
+.type-box {
+  width: 174px;
+  height: 28px;
+  font-size: 15px;
+}
+.purpose-box {
+  width: 174px;
+  height: 28px;
+  font-size: 15px;
+}
+.business-box {
+  width: 174px;
+  height: 28px;
+  font-size: 15px;
+}
+.tbl-data {
+  text-transform: capitalize;
+  color: black;
+}
+.tbl-data-personName {
+  text-transform: capitalize;
+  color: black;
+  text-align: left;
+  width: 270px;
+}
+
+.tbl-data-purpose {
+  text-transform: capitalize;
+  text-align: left;
+}
+.tbl-data-business {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.tbl-data-phoneCall {
+  width: 168px;
+}
+
+.tbl-data-time {
+  width: 89px;
+}
+
+.option-business {
+  text-transform: capitalize;
+}
+.drop-business {
+  text-transform: capitalize;
+}
+.btn-home {
+  border: solid 1px;
+  border-color: black;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  color: black;
+  background: none;
+}
+.btn-home:hover {
+  background-color: rgb(114, 119, 119);
+  border-color: rgb(114, 119, 119);
+}
+.home-link {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+.home-link:hover {
+  color: white;
+}
+.dlt-btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.edt-btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.del-icon {
+  color: #757b7c;
+  font-size: 24px;
+  /* margin-right: 8px; */
+}
+.edit-icon {
+  color: #27852fd3;
+  font-size: 22px;
+  /* margin-left: 8px; */
+}
+.dl-icon {
+  font-size: 21px;
+  color: blue;
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.dash-board {
+  box-shadow: rgb(0 0 0 / 52%) 0px 5px 15px;
+  width: 237px;
+  height: 160px;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 62px;
+  background: white;
+}
+.line {
+  height: 2.5px;
+  background-color: #849994;
+}
+.add-btn {
+  margin-right: 187px;
+  margin-top: 7px;
+  border: solid 1px;
+  border-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  color: black;
+  font-size: 16px;
+  background: none;
+}
+
+.add-btn:hover {
+  background-color: rgb(114, 119, 119);
+  border-color: rgb(114, 119, 119);
+}
+.add-link {
+  color: black;
+}
+.add-link:hover {
+  color: white;
+}
+
+.add {
+  text-align: end;
+}
+.counts {
+  display: flex;
+  justify-content: space-evenly;
+}
+.today-head {
+  margin-top: -1px;
+  padding-top: 18px;
+  letter-spacing: 1px;
+  color: #2d856f;
+}
+.calls-btn {
+  width: 95px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 27px;
+}
+.calls-btn:hover {
+  background-color: rgb(149, 233, 149);
+  border-radius: 5px;
+  margin-right: 2px;
+}
+.visitor-btn {
+  width: 102px;
+  background: none;
+  border: none;
+  border-color: #efefef;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 27px;
+}
+.visitor-btn:hover {
+  background-color: rgb(160, 226, 235);
+  border-radius: 5px;
+  margin-left: 2px;
+}
+.add-link {
+  text-decoration: none;
+}
+.vert-line {
+  width: 2px;
+  background-color: #849994;
+  height: 97px;
+}
+.dashboard-container {
+  margin-left: 35px;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: cursive;
+  text-shadow: -1px 0px 19px #1be4bc;
+}

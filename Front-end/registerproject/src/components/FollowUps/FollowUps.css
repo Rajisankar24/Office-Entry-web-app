@@ -1,0 +1,115 @@
+.follow-up-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 6rem;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 500px;
+  margin: auto;
+  width: 89%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 12px;
+  margin-top: 71px;
+  margin-bottom: 40px;
+}
+.purpose-date {
+  display: flex;
+  margin-bottom: -22px;
+}
+.days-ago {
+  margin-top: 21px;
+  margin-left: 25px;
+  color: #9b9ba7;
+}
+.seperate {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pro-names {
+  display: flex;
+}
+.target-point {
+  display: flex;
+  margin-bottom: 46px;
+}
+.data-container {
+  margin-top: -20px;
+  padding-left: 8px;
+  height: 200px;
+
+  width: 250px;
+}
+.purpose {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.target-icon {
+  color: blue;
+  font-size: 25px;
+}
+
+.tar-icon {
+  color: red;
+  font-size: 25px;
+}
+.single-container {
+  width: 300px;
+  margin-left: 51px;
+  margin-right: 51px;
+}
+.flw-head {
+  margin-bottom: 45px;
+}
+.purpose-name {
+  padding-right: 17px;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+}
+.busi-name {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+.p-name {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+.txt-note {
+  color: black;
+  font-size: 17px;
+  margin-top: -6px;
+  text-transform: initial;
+  font-weight: 400;
+}
+.qry-note {
+  text-align: justify;
+}
+.qry-note::first-letter {
+  text-transform: uppercase;
+}
+.icons {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.tick-mark {
+  margin-top: -60px;
+  margin-left: 1px;
+  font-size: 21px;
+  color: #c7c7c7;
+  cursor: pointer;
+}
+.tick-mark:hover {
+  font-size: 23px;
+}
+.green-mark {
+  margin-top: -60px;
+  margin-left: 1px;
+  font-size: 21px;
+  color: green;
+  cursor: pointer;
+}
